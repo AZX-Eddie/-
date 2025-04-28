@@ -1,0 +1,12 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Time	ALUOp	funct3	funct7	ALUSrc	Result		Zero
+10	0	10	0	1	xxxxxxxx	x
+20	10	0	0	0	00000009	0
+30	0	10	0	1	00000106	0
+40	1	0	0	0	00000000	0
+50	1	1	0	0	fffffff5	0
+60	10	0	100000	0	00000010	0
+70	10	111	0	0	00000000	0
+80	10	110	0	0	f0f0f0f0	0
+$finish called at time : 80 ns : File "C:/Users/86181/CPUdemo/CPUdemo.srcs/sim_1/new/ALU_tb.v" Line 119
